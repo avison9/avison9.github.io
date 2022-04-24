@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Failure Page</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+
+      .container {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .btn {
+        width: 100px;
+        font: inherit;
+        background-color: rgb(35, 167, 35);
+        border: none;
+        cursor: pointer;
+        padding: 0.3rem;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+    <link rel="stylesheet" href="css/score-bar.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="fail-msg">Sorry, you have failed the test</h2>
+      <div class="score_con">
+        <div class="total_score_bar">
+          <div class="score_bar fail"></div>
+          <div class="score_percent"></div>
+        </div>
+        <div class="score_got">Score: <span class="score">0/0</span></div>
+      </div>
+      <a href="quiz_page.html">
+        <button class="btn">Reload</button>
+      </a>
+    </div>
+    <script src="js/score.js"></script>
+  </body>
+</html>
