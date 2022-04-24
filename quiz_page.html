@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>quiz</title>
+
+    <link rel="stylesheet" type="text/css" href="css/quiz.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <main class="main_content">
+        <div class="timer">00:00</div>
+        <div class="quiz_box" id="quiz">
+          <h2 id="question">Questions here</h2>
+          <ul class="options_list">
+            <li>
+              <input type="radio" name="answer" id="a" class="answer" />
+              <label for="a" id="a_option">Answer</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="b" class="answer" />
+              <label for="b" id="b_option">Answer</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="c" class="answer" />
+              <label for="c" id="c_option">Answer</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="d" class="answer" />
+              <label for="d" id="d_option">Answer</label>
+            </li>
+          </ul>
+          <button id="next" class="nxt_btn">Next</button>
+        </div>
+        <div class="progress_info">
+          <div class="p_bar">
+            <div class="p_bar_full"></div>
+          </div>
+          <div class="no_of_quizzes">0/20</div>
+        </div>
+      </main>
+      <div class="hint_box">
+        <h2>Hints</h2>
+        <div class="hint" id="hint"></div>
+      </div>
+    </div>
+    <script src="js/quizz.js"></script>
+  </body>
+</html>
