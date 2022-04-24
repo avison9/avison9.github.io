@@ -186,6 +186,26 @@ a.main-filled-button:hover {
   background-color: #5fb759;
 }
 
+a.main-filler-button {
+  font-size: 13px;
+  border-radius: 25px;
+  padding: 13px 25px;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a.main-filler-button:hover {
+  color: #fff;
+  background-color: #5fb759;
+}
+
 a.main-button-icon {
   font-size: 13px;
   border-radius: 25px;
@@ -903,12 +923,32 @@ ul.slick-dots {
   animation:fadeOutRight 1s both;
 }
 
+.Modern-Slider .item h4 {
+  margin-bottom: 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color:#000000;
+  animation:fadeOutRight 1s both;
+}
+
 .Modern-Slider .item h5 {
   margin-bottom: 50px;
   font-size: 36px;
   font-weight: 200;
   letter-spacing: 2.5px;
   color:#FFF;
+  overflow:hidden;
+  animation:fadeOutLeft 1s both;
+}
+
+.Modern-Slider .item h6 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: 2.5px;
+  color:#000000;
   overflow:hidden;
   animation:fadeOutLeft 1s both;
 }
