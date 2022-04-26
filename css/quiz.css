@@ -218,6 +218,16 @@ body {
   text-overflow: hidden;
 }
 
+.share_sm {
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+
+.share_sm li{
+  display: inline;
+}
+
 
 
 #contact-us .section-heading {
