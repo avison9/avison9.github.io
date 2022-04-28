@@ -139,6 +139,51 @@ const myQuestions = [
     correctAnswer: "a",
     hint: "He is the convenner of the peace truce in 2015 between Jonathan and Buhari!",
   },
+  {
+    question: "The NIS was formally established by the act of parliament in?",
+    a: "1963",
+    b: "1957",
+    c: "1964",
+    d: "1976",
+    correctAnswer: "a",
+    hint: "It occured the same year Nigeria became a republic!",
+  },
+  {
+    question: "Which African country is the first to introduce E-passport?",
+    a: "South-Africa",
+    b: "Ghana",
+    c: "Liberia",
+    d: "Nigeria",
+    correctAnswer: "d",
+    hint: "The most populous black country!",
+  },
+  {
+    question: "The first general election in Nigeria was held in?",
+    a: "1959",
+    b: "1960",
+    c: "1963",
+    d: "1999",
+    correctAnswer: "a",
+    hint: "This was held a year before Nigeria became indepent!",
+  },
+  {
+    question: "The name Nigeria is coined out of?",
+    a: "Niger Forest",
+    b: "Niger Area",
+    c: "Niger River",
+    d: "Niger Textures",
+    correctAnswer: "b",
+    hint: "coined from the name of the major river in Niger state and the multiplication of the length and breadth of a rectangle!",
+  },
+  {
+    question: "The first political party in Nigeria was founded by?",
+    a: "Labri Cohen",
+    b: "Nnamdi Azikiwe",
+    c: "Herbert Macaulay",
+    d: "Baba Nla",
+    correctAnswer: "c",
+    hint: "Has his portrait on both the 1 naira note and 1 naira coin!",
+  },
 ];
 
 const quiz = document.getElementById("quiz");
@@ -247,7 +292,7 @@ function clearLock() {
  */
 function createTimer(mins, cb) {
   const timerEl = document.querySelector(".timer");
-  let timeRemainsInSeconds = mins * 60;
+  let timeRemainsInSeconds = mins * 75;
   timerId = setInterval(() => {
     timeRemainsInSeconds--;
     updateView();
